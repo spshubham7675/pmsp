@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 var mongoosePaginate = require('mongoose-paginate');
-mongoose.connect('mongodb+srv://sp:Shubham1998@cluster0.s1ncj.mongodb.net/PMS?retryWrites=true&w=majority', {useNewUrlParser: true,useUnifiedTopology: true, useCreateIndex: true,});
+mongoose.connect('mongodb+srv://sp:Shubham1998@pms.lovvn.mongodb.net/pms?retryWrites=true&w=majority', {useNewUrlParser: true,useUnifiedTopology: true, useCreateIndex: true,});
 var conn =mongoose.Collection;
 var passSchema =new mongoose.Schema({
     password_category: {type:String, 
